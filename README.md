@@ -8,7 +8,7 @@
 
 配置：  
 1.打开cmd命令  
-    输入apache的bin目录。--- D:\wamp\bin\apache\apache2.4.46\bin  
+  输入apache的bin目录。--- D:\wamp\bin\apache\apache2.4.46\bin  
 2.依次执行下列命令：    
   - openssl genrsa -aes256 -out private.key 2048  
   - openssl rsa -in private.key -out private.key  
