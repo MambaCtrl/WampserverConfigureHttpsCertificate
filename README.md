@@ -16,7 +16,7 @@
  注意： 执行命令期间，会让输入密码，或者国家地区一类的 ，按提示输入即可。  
         Common Name：localhost  
 3.打开配置文件 D:\wamp\bin\apache\apache2.4.46\conf\extra\httpd-ssl.conf，在原来的配置中做如下修改：  
--DocumentRoot "D:/wamp/www"
--ServerName localhost:443
+ - DocumentRoot "D:/wamp/www"
+ - ServerName localhost:443
   
  
