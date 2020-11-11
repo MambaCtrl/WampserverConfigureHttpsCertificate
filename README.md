@@ -7,7 +7,7 @@
 2.OpenSSL --- https://slproweb.com/products/Win32OpenSSL.html  
 注意：可以下载最新版，注意版本问题  
 -------------------------------------------------------------------------------
-配置：  
+##配置：  
 1.打开cmd命令  
   输入apache的bin目录。--- D:\wamp\bin\apache\apache2.4.46\bin  
 2.依次执行下列命令  
