@@ -30,7 +30,7 @@
    - SSLCertificateKeyFile "D:/wamp/bin/apache/apache2.4.46/conf/key/private.key"
    
    - CustomLog "D:/wamp/bin/apache/apache2.4.46/logs/ssl_request.log" \
-          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"   
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"  
 
 4. 完成上述步骤后，在php.ini中药保证存在 extension=php_openssl.dll ，若没有extension=php_openssl.dll 那就添加这段，这段之前要是有“；”就先删除“；”再添加
  
