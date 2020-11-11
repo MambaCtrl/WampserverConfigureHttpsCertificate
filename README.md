@@ -22,6 +22,12 @@
    - DocumentRoot "D:/wamp/www"  
    - ServerName localhost:443  
    - ServerAdmin admin@example.com  
-   - ErrorLog "D:/wamp/bin/apache/apache2.4.46/logs/error.log"  
+   - ErrorLog "D:/wamp/bin/apache/apache2.4.46/logs/error.log" 
+   - TransferLog "D:/wamp/bin/apache/apache2.4.46/logs/access.log"
    
+   - SSLCertificateFile "D:/wamp/bin/apache/apache2.4.46/conf/key/certificate.crt"
+   - SSLCertificateKeyFile "D:/wamp/bin/apache/apache2.4.46/conf/key/private.key"
+   
+   - CustomLog "D:/wamp/bin/apache/apache2.4.46/logs/ssl_request.log" \
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
  
