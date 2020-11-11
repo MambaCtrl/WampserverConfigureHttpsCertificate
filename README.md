@@ -1,6 +1,6 @@
 # wampserver-configure-https-certificate
 ##记录wampserver配置https证书步骤
--------------------------------------------------------------------------------
+
 下载项：  
 1.WampServer --- 百度搜索然后官网下载  
 2.OpenSSL --- https://slproweb.com/products/Win32OpenSSL.html  
