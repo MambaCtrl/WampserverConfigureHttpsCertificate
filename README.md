@@ -12,9 +12,9 @@
 >输入apache的bin目录。--- D:\wamp\bin\apache\apache2.4.46\bin（我的目录）    
 
 2. 依次执行下列命令：    
-   -openssl genrsa -aes256 -out private.key 2048  
-   -openssl rsa -in private.key -out private.key  
-   -openssl req -new -x509 -nodes -sha1 -key private.key -out certificate.crt -days 36500 -config D:\wamp\bin\apache\apache2.4.46\conf\openssl.cnf   
+   - openssl genrsa -aes256 -out private.key 2048  
+   - openssl rsa -in private.key -out private.key  
+   - openssl req -new -x509 -nodes -sha1 -key private.key -out certificate.crt -days 36500 -config D:\wamp\bin\apache\apache2.4.46\conf\openssl.cnf   
   
     注意：执行命令期间，会让输入密码，或者国家地区一类的 ，按提示输入即可。  
        Common Name：localhost  
