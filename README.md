@@ -18,9 +18,9 @@
    + openssl rsa -in private.key -out private.key  
    + openssl req -new -x509 -nodes -sha1 -key private.key -out certificate.crt -days 36500 -config D:\wamp\bin\apache\apache2.4.46\conf\openssl.cnf   
   
-    注意：执行命令期间，会让输入密码，或者国家地区一类的 ，按提示输入即可。  
+    注意：1).执行命令期间，会让输入密码，或者国家地区一类的 ，按提示输入即可。  
        Common Name：localhost  
-  *执行结束后会在 D:\wamp\bin\apache\apache2.4.9\bin 目录下生成 certificate.crt 和 private.key 两个文件，复制这两个文件，然后切换目录到 D:\wamp\bin\apache\apache2.4.9\conf 下，创建key文件夹，放入这两个文件
+         2).执行结束后会在 D:\wamp\bin\apache\apache2.4.9\bin 目录下生成 certificate.crt 和 private.key 两个文件，复制这两个文件，然后切换目录到 D:\wamp\bin\apache\apache2.4.9\conf 下，创建key文件夹，放入这两个文件
 
 3. 打开配置文件 D:\wamp\bin\apache\apache2.4.46\conf\extra\httpd-ssl.conf，在原来的配置中做如下修改：  
    + DocumentRoot "D:/wamp/www"  
